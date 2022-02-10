@@ -4,6 +4,12 @@ namespace BankApplication
 {
     class Program
     {
+        /// <summary>
+        /// This program implements polymorphisim using bank accounts
+        /// </summary>
+        /// <Student>Dominic Verardi</Student>
+        /// <Class>CIS297</Class>
+        /// <Semester>Winter 2022</Semester>
         static void Main(string[] args)
         {
             // create array of accounts
