@@ -1,0 +1,2 @@
+C:\Users\Dominic\source\repos\cis297-w2022-assignment3-template-doom-mi\BankApplication\obj\Debug\BankApplication.csproj.AssemblyReference.cache
+C:\Users\Dominic\source\repos\cis297-w2022-assignment3-template-doom-mi\BankApplication\obj\Debug\BankApplication.csproj.CoreCompileInputs.cache
