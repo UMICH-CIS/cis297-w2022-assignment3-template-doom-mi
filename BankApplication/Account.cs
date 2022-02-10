@@ -10,7 +10,10 @@ namespace BankApplication
     {
         private decimal accountBalance;
 
-        public decimal Balance { get { return accountBalance; } }
+        public decimal Balance
+        { get { return accountBalance; }
+          set { accountBalance = value; }
+        }
 
         public Account(decimal initialBalance)
         {
@@ -27,16 +30,18 @@ namespace BankApplication
             accountBalance += money;
         }
 
-        public void Debit(decimal money)
+        public bool Debit(decimal money)
         {
             if(accountBalance - money < 0)
             {
                 Console.WriteLine("Debit amount exceeded account balance.");
+                return false;
             }
 
             else
             {
                 accountBalance -= money;
+                return true;
             }
         }
     }

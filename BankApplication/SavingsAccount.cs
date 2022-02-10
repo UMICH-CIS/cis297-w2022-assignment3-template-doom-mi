@@ -8,5 +8,17 @@ namespace BankApplication
 {
     public class SavingsAccount : Account
     {
+        private decimal interestRate;
+
+        public SavingsAccount(decimal initialBalance, decimal interestRate) : base(initialBalance)
+        {
+            this.interestRate = interestRate;
+        }
+
+        public decimal CalculateInterest()
+        {
+            return Balance * interestRate;
+        }
     }
+    
 }
