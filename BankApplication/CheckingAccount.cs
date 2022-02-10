@@ -15,7 +15,7 @@ namespace BankApplication
             this.feeCharge = feeCharge;
         }
 
-        public void Credit(decimal money)
+        public new void Credit(decimal money)
         {
             if ((Balance - feeCharge) + money < 0)
             {
@@ -28,11 +28,16 @@ namespace BankApplication
             }
         }
 
-        public void Debit(decimal money)
+        public new bool Debit(decimal money)
         {
             if(base.Debit(money))
             {
                 Balance -= feeCharge;
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
     }

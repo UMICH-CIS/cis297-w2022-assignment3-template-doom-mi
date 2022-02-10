@@ -1,2 +1,8 @@
 C:\Users\Dominic\source\repos\cis297-w2022-assignment3-template-doom-mi\BankApplication\obj\Debug\BankApplication.csproj.AssemblyReference.cache
 C:\Users\Dominic\source\repos\cis297-w2022-assignment3-template-doom-mi\BankApplication\obj\Debug\BankApplication.csproj.CoreCompileInputs.cache
+C:\Users\domin\source\repos\cis297-w2022-assignment3-template-doom-mi\BankApplication\bin\Debug\BankApplication.exe.config
+C:\Users\domin\source\repos\cis297-w2022-assignment3-template-doom-mi\BankApplication\bin\Debug\BankApplication.exe
+C:\Users\domin\source\repos\cis297-w2022-assignment3-template-doom-mi\BankApplication\bin\Debug\BankApplication.pdb
+C:\Users\domin\source\repos\cis297-w2022-assignment3-template-doom-mi\BankApplication\obj\Debug\BankApplication.csproj.CoreCompileInputs.cache
+C:\Users\domin\source\repos\cis297-w2022-assignment3-template-doom-mi\BankApplication\obj\Debug\BankApplication.exe
+C:\Users\domin\source\repos\cis297-w2022-assignment3-template-doom-mi\BankApplication\obj\Debug\BankApplication.pdb
